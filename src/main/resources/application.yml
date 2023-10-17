@@ -1,0 +1,12 @@
+spring:
+  data:
+    redis:
+      host: redis-dev-a9df57096c99415f.elb.ap-northeast-2.amazonaws.com
+      port: 6379
+      database: 0
+
+server:
+  port: 8888
+logging:
+  level:
+    root: debug
